@@ -1,6 +1,7 @@
 #include <iostream>
 
-int main(){
+int main()
+{
     // variables
     std::string fullName;
     std::string country;

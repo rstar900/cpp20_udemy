@@ -76,6 +76,23 @@ int main()
         if (dayPast == 0)
             dayPast = 7;
 
+        /* Alternate approach (from instructor)
+
+        //Make sure the day difference is between 0 and 6 inclusive
+        //for ease of computation
+        int normalized_diff = (days_passed %7);
+  
+        int day_in_the_past = today - normalized_diff;
+
+        //If the day in the past happens to be negative, we throw it back
+        //in the positive range, again for ease of our logic. This way
+        //we can use the same logic to print out the days
+        if(day_in_the_past < 0){
+            day_in_the_past += 7;
+        }
+
+        */    
+
         std::cout << "If we went " << daysPassed << " in past we would hit a ";
 
         switch (dayPast)

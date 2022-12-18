@@ -1,10 +1,3 @@
-// TODO
-/*
-loop for each element no of days time
-insert new line after day 7 otherwise space
-continue printing 
-*/
-
 #include <iostream>
 #include <iomanip>
 #include <vector>

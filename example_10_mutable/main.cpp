@@ -56,6 +56,7 @@ int main ()
     point2.set_x_y(6.34, 9.124);
     point2.print_info();
 
+    // m_extra_info incremented even though it is const object due to the use of mutable
     point1.get_extra_info();
     point1.get_extra_info();
 

@@ -23,7 +23,7 @@ int main()
     // works with & and = as well 
     [x, y] ()
     {
-        std::cout << "\nInside Lambda\n";
+        std::cout << "\nInside Lambda Expression\n";
         std::cout << "x : " << x << std::endl;
         std::cout << "y : " << y << std::endl;
     }();

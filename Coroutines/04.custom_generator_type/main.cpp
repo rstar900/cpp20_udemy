@@ -45,7 +45,6 @@ struct Generator
         
     };
 
-    // instead of pointer *p using reference &p
     Generator(promise_type* p) : m_handle(std::coroutine_handle<promise_type>::from_promise(*p)) {}
     ~Generator()
     {

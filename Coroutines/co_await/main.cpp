@@ -28,6 +28,7 @@ struct CoroType
     ~CoroType()
     {
         std::cout << "Coroutine destroyed..." << std::endl;
+        m_handle.destroy();
     }
 
     std::coroutine_handle<promise_type> m_handle;

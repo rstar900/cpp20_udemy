@@ -1,0 +1,3 @@
+/home/rstar900/git_repos/cpp20_udemy/Modules/01.first_module/cmake-build-debug/CMakeFiles/main.dir
+/home/rstar900/git_repos/cpp20_udemy/Modules/01.first_module/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/rstar900/git_repos/cpp20_udemy/Modules/01.first_module/cmake-build-debug/CMakeFiles/rebuild_cache.dir

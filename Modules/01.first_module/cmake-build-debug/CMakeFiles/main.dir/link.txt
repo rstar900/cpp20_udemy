@@ -1,0 +1,1 @@
+/usr/bin/c++  -fmodules-ts -g CMakeFiles/main.dir/main.cpp.o CMakeFiles/main.dir/my_first_module.cxx.o -o main 

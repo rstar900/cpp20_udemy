@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteTargetsManager">
+    <targets>
+      <target name="WSL - Ubuntu" type="wsl" uuid="66064ab3-44c8-484d-b4c5-1364143a6495">
+        <config>
+          <option name="distributionMsId" value="Ubuntu" />
+          <option name="projectRootOnTarget" value="/mnt/c/Program Files/JetBrains/CLion 2023.1.1/jbr/bin&#10;/Default (Template) Project" />
+        </config>
+      </target>
+    </targets>
+  </component>
+</project>

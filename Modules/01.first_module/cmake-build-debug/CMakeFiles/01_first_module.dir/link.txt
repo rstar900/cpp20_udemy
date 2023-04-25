@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/01_first_module.dir/main.cpp.o CMakeFiles/01_first_module.dir/my_first_module.cxx.o -o 01_first_module 

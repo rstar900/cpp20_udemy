@@ -14,7 +14,9 @@ struct Point {
     auto operator<=>(const Point& right) const = default;
 };
 
-// defining outside to enable implicit conversions on left operand 
+// Update: No need of defining outside in C++20 for <=> operator to enable implicit conversions on left operand
+/* 
 auto operator<=>(const double left, const Point& right) {
     return Point(left).operator<=>(right);
 }
+*/
